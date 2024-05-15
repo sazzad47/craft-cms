@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 0b315167-6ebe-4ac4-8424-0284b7dcd4de # user
+handle: user
+maxAuthors: 1
+name: User
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  0d26f912-8862-4d0f-bdf7-23ff5e08e686: # Match 
+    enabledByDefault: true
+    hasUrls: true
+    template: user/_entry
+    uriFormat: 'user/{slug}'
+type: channel

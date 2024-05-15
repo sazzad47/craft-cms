@@ -1,0 +1,73 @@
+dateModified: 1715774108
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      heading: Structures
+      type: heading
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:af4f5eea-19cf-4241-9ffa-38cfccf51920'
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+        - parent
+      type: native
+email:
+  fromEmail: admin@craft.com
+  fromName: 'Match '
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0a81ea75-0e3b-44d4-a6bc-8315795763f1: Messages # Messages
+    0aa0b683-928d-46a7-b0af-9a51c49184f6: Profile # Profile
+    0b315167-6ebe-4ac4-8424-0284b7dcd4de: user # user
+    0d26f912-8862-4d0f-bdf7-23ff5e08e686: 'Match ' # Match 
+    1d417f1d-cae3-4336-87e0-8fc807e822e1: User # User
+    2bf8a8db-46d5-4259-aa87-d2d4e968937c: Email # Email
+    3e382965-0dbb-45a0-b3a3-8efeb2def950: Filter # Filter
+    3eb2e7b3-810c-4f83-9411-f4b0fd08177c: Message # Message
+    5aece3f6-9e72-46cc-8a2b-5e5228bc7667: 'Auth Provider' # Auth Provider
+    8f693e6d-e542-46a3-a699-e04e6b338d9b: Subscription # Subscription
+    9b74e695-c103-4964-8d64-c35103298a98: 'Stripe Price Id' # Stripe Price Id
+    9ed004ef-4a5d-431d-91d8-279bd61dcea1: 'Year of Education' # Year of Education
+    15fe8e2d-cb63-4822-98f6-cdbd4cb6185f: Subscription # Subscription
+    41ac7dda-9a29-4134-94ad-3abaddb0f7c6: 'Public Schema' # Public Schema
+    69b3c42f-e31a-45f5-bd7e-874f903113f2: 'Last Message' # Last Message
+    73be8222-221b-41a9-8f8a-11efc6fad31a: Filter # Filter
+    79fe4d00-4b14-4071-b193-26dab2e8a8e5: Chat # Chat
+    302dd6fd-bf16-4002-bbaa-a5aa0b4d63c8: User # User
+    0617da23-5fb4-412c-b7e5-502d89c2b95a: 'Full Name' # Full Name
+    622d728c-8dc3-4a23-8ffc-319f424120e3: Message # Message
+    887d875b-445e-4552-92a2-5beb665d46ec: Receiver # Receiver
+    1408d661-772b-4329-8b77-4984146ac720: Institution # Institution
+    9027fdad-de38-43b4-ae17-d8b8ff98edf8: subscription # subscription
+    9435f952-aa75-4482-9419-aa5f4de0bcb6: Location # Location
+    9729e8ee-d2cb-4da5-b1c2-7b290e94d552: filter # filter
+    9761bb52-245f-46e2-af43-fa313d79019d: Specialty # Specialty
+    238323dd-2071-4067-aedd-bf8beb2e1097: 'Stripe Subscription Id' # Stripe Subscription Id
+    312943b8-21ed-421a-90db-6129dbe8791d: Profile # Profile
+    993457ed-fa5c-46ab-867b-29dc94c27418: Text # Text
+    a8423fa3-f646-415c-ab59-0fa58828c77a: Chat # Chat
+    ac922a27-0e67-4971-bf73-92b98fdfee5a: Sender # Sender
+    b2e7293b-5c1b-41ab-a136-8317651fb9b4: Plan # Plan
+    b263200a-0022-4567-b167-ee8f84abf66b: 'Stripe Customer Id' # Stripe Customer Id
+    ca3d8d6a-ff8d-4e6c-ad48-659c11582059: 'Match ' # Match 
+    cfea8414-722d-4022-a8a1-668fc1cff102: 'Stripe Current Period End' # Stripe Current Period End
+    ddb23e00-301b-46cc-b9dc-93a47403f851: profile # profile
+    de120b67-ef1d-4b97-81a2-f2b76f9b424a: Password # Password
+    ebd249d9-a512-4342-ba84-9444b3095c5a: Chat # Chat
+    f4007860-11c1-4ae0-8676-4545d5d69bfc: Active # Active
+    faa9f15f-0a37-4b61-bf00-8359a7511f95: 'Chat Users' # Chat Users
+system:
+  edition: solo
+  live: true
+  name: 'Match '
+  schemaVersion: 5.0.0.20
+  timeZone: America/Los_Angeles

@@ -1,0 +1,37 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.0d26f912-8862-4d0f-bdf7-23ff5e08e686:read' # Match 
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.79fe4d00-4b14-4071-b193-26dab2e8a8e5:read' # Chat
+  - 'sections.3e382965-0dbb-45a0-b3a3-8efeb2def950:read' # Filter
+  - 'sections.622d728c-8dc3-4a23-8ffc-319f424120e3:read' # Message
+  - 'sections.312943b8-21ed-421a-90db-6129dbe8791d:read' # Profile
+  - 'sections.8f693e6d-e542-46a3-a699-e04e6b338d9b:read' # Subscription
+  - 'sections.302dd6fd-bf16-4002-bbaa-a5aa0b4d63c8:read' # User
+  - 'sections.79fe4d00-4b14-4071-b193-26dab2e8a8e5:edit' # Chat
+  - 'sections.79fe4d00-4b14-4071-b193-26dab2e8a8e5:create' # Chat
+  - 'sections.79fe4d00-4b14-4071-b193-26dab2e8a8e5:save' # Chat
+  - 'sections.79fe4d00-4b14-4071-b193-26dab2e8a8e5:delete' # Chat
+  - 'sections.3e382965-0dbb-45a0-b3a3-8efeb2def950:edit' # Filter
+  - 'sections.3e382965-0dbb-45a0-b3a3-8efeb2def950:create' # Filter
+  - 'sections.3e382965-0dbb-45a0-b3a3-8efeb2def950:save' # Filter
+  - 'sections.3e382965-0dbb-45a0-b3a3-8efeb2def950:delete' # Filter
+  - 'sections.622d728c-8dc3-4a23-8ffc-319f424120e3:edit' # Message
+  - 'sections.622d728c-8dc3-4a23-8ffc-319f424120e3:create' # Message
+  - 'sections.622d728c-8dc3-4a23-8ffc-319f424120e3:save' # Message
+  - 'sections.622d728c-8dc3-4a23-8ffc-319f424120e3:delete' # Message
+  - 'sections.312943b8-21ed-421a-90db-6129dbe8791d:edit' # Profile
+  - 'sections.312943b8-21ed-421a-90db-6129dbe8791d:create' # Profile
+  - 'sections.312943b8-21ed-421a-90db-6129dbe8791d:save' # Profile
+  - 'sections.312943b8-21ed-421a-90db-6129dbe8791d:delete' # Profile
+  - 'sections.8f693e6d-e542-46a3-a699-e04e6b338d9b:edit' # Subscription
+  - 'sections.8f693e6d-e542-46a3-a699-e04e6b338d9b:create' # Subscription
+  - 'sections.8f693e6d-e542-46a3-a699-e04e6b338d9b:save' # Subscription
+  - 'sections.8f693e6d-e542-46a3-a699-e04e6b338d9b:delete' # Subscription
+  - 'sections.302dd6fd-bf16-4002-bbaa-a5aa0b4d63c8:edit' # User
+  - 'sections.302dd6fd-bf16-4002-bbaa-a5aa0b4d63c8:create' # User
+  - 'sections.302dd6fd-bf16-4002-bbaa-a5aa0b4d63c8:save' # User
+  - 'sections.302dd6fd-bf16-4002-bbaa-a5aa0b4d63c8:delete' # User

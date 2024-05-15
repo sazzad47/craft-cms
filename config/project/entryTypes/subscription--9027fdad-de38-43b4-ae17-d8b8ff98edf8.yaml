@@ -1,0 +1,140 @@
+color: null
+fieldLayouts:
+  cf682ed3-b41e-46af-afcd-756801bdcbfd:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c0b1277d-4e96-462b-a735-bb24ef761eaa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b2e7293b-5c1b-41ab-a136-8317651fb9b4 # Plan
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 99b30d7a-a5f2-413e-a65b-4562ff3edd70
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1d417f1d-cae3-4336-87e0-8fc807e822e1 # User
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 249ed1aa-ec07-45b3-9eb7-e3b0f4ff85e3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 238323dd-2071-4067-aedd-bf8beb2e1097 # Stripe Subscription Id
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36ad5f33-40b8-4015-9009-2caef21a672f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b263200a-0022-4567-b167-ee8f84abf66b # Stripe Customer Id
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 96d88592-efeb-4e7c-8589-8ab267819f6b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9b74e695-c103-4964-8d64-c35103298a98 # Stripe Price Id
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bf15d1fa-7e12-49cd-8bda-940dd137f47b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cfea8414-722d-4022-a8a1-668fc1cff102 # Stripe Current Period End
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dd0bb7a1-0eac-437e-bba2-a21f677a8f04
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1e25b305-7ae0-4377-96ca-12eb66068457
+        userCondition: null
+handle: subscription
+hasTitleField: false
+icon: ''
+name: subscription
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{plan}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

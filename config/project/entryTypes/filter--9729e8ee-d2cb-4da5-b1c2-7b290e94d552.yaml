@@ -1,0 +1,125 @@
+color: null
+fieldLayouts:
+  ce8221f0-dd66-401d-867b-f8cc60b43ba2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b9507e4a-d35a-4ad9-93cb-e354348b7b78
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9761bb52-245f-46e2-af43-fa313d79019d # Specialty
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 521ba3f2-4928-4c40-b38f-0ae47387ab8a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9435f952-aa75-4482-9419-aa5f4de0bcb6 # Location
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 26b63d87-6255-4201-80a9-afb96eacc218
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1408d661-772b-4329-8b77-4984146ac720 # Institution
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eaf748fc-14aa-4626-aae5-f91880358cc8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9ed004ef-4a5d-431d-91d8-279bd61dcea1 # Year of Education
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bb154a67-f86d-4653-8262-9cba910b4e3e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1d417f1d-cae3-4336-87e0-8fc807e822e1 # User
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d81c44cd-a000-4806-9a6e-7965e192770b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 8aa5f7df-35d4-4659-a4dc-727e22fe364d
+        userCondition: null
+handle: filter
+hasTitleField: false
+icon: ''
+name: filter
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{user[0]["fullName"]}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

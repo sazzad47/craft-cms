@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - ebd249d9-a512-4342-ba84-9444b3095c5a # Chat
+handle: chat
+maxAuthors: 1
+name: Chat
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  0d26f912-8862-4d0f-bdf7-23ff5e08e686: # Match 
+    enabledByDefault: true
+    hasUrls: true
+    template: chat/_entry
+    uriFormat: 'chat/{slug}'
+type: channel

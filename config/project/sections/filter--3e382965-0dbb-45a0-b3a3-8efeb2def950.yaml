@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 9729e8ee-d2cb-4da5-b1c2-7b290e94d552 # filter
+handle: filter
+maxAuthors: 1
+name: Filter
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  0d26f912-8862-4d0f-bdf7-23ff5e08e686: # Match 
+    enabledByDefault: true
+    hasUrls: true
+    template: filter/_entry
+    uriFormat: 'filter/{slug}'
+type: channel

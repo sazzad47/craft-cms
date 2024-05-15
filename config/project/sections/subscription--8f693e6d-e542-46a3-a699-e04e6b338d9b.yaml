@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 9027fdad-de38-43b4-ae17-d8b8ff98edf8 # subscription
+handle: subscription
+maxAuthors: 1
+name: Subscription
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  0d26f912-8862-4d0f-bdf7-23ff5e08e686: # Match 
+    enabledByDefault: true
+    hasUrls: true
+    template: subscription/_entry
+    uriFormat: 'subscription/{slug}'
+type: channel

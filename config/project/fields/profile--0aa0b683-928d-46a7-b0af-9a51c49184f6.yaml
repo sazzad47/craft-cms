@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: profile
+instructions: null
+name: Profile
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: true
+  sources:
+    - 'section:312943b8-21ed-421a-90db-6129dbe8791d' # Profile
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries
