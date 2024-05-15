@@ -1,0 +1,32 @@
+columnSuffix: null
+handle: authProvider
+instructions: null
+name: 'Auth Provider'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - SYSTEM
+        -
+          - value
+          - SYSTEM
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - GOOGLE
+        -
+          - value
+          - GOOGLE
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

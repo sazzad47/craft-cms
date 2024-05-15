@@ -1,0 +1,43 @@
+columnSuffix: null
+handle: plan
+instructions: null
+name: Plan
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - BASIC
+        -
+          - value
+          - BASIC
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - ESSENTIAL
+        -
+          - value
+          - ESSENTIAL
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - ENTERPRISE
+        -
+          - value
+          - ENTERPRISE
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

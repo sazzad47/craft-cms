@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - ddb23e00-301b-46cc-b9dc-93a47403f851 # profile
+handle: profile
+maxAuthors: 1
+name: Profile
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  0d26f912-8862-4d0f-bdf7-23ff5e08e686: # Match 
+    enabledByDefault: true
+    hasUrls: true
+    template: profile/_entry
+    uriFormat: 'profile/{slug}'
+type: channel
